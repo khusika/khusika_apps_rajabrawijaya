@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:background="@drawable/template_textmenu" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="300.0dip">
+        <android.support.design.widget.CollapsingToolbarLayout android:id="@id/toolbar_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:contentScrim="?colorPrimary">
+            <ImageView android:windowContentOverlay="@null" android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/framepk2mu" android:scaleType="centerCrop" />
+            <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/AppTheme.AppBarOverlay" app:layout_scrollFlags="exitUntilCollapsed|scroll" app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_pk2mu" />
+</android.support.design.widget.CoordinatorLayout>

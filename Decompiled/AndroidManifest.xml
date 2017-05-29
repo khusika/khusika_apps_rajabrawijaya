@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.rb.cahaya.raja" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:allowBackup="true" android:icon="@drawable/favicon" android:label="Raja Brawijaya" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:label="RAJA BRAWIJAYA" android:name="com.rb.cahaya.raja.Splash" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="RAJA BRAWIJAYA" android:name="com.rb.cahaya.raja.MainActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.rb.cahaya.raja.Raja_Brawijaya.RajaBrawijaya" android:screenOrientation="portrait"/>
+        <activity android:name="com.rb.cahaya.raja.OH_LKM.detail_minat" android:screenOrientation="portrait"/>
+        <activity android:name="com.rb.cahaya.raja.OH_LKM.list_pilihan_minat" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_pk2mu" android:name="com.rb.cahaya.raja.PK2MU.PK2MU_Activity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/title_activity_pbp" android:name="com.rb.cahaya.raja.PBP.PBP_Activity" android:screenOrientation="portrait" android:theme="@style/AppTheme"/>
+        <activity android:name="com.rb.cahaya.raja.OH_LKM.OH_LKM_Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.rb.cahaya.raja.Notification.Contact_Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.rb.cahaya.raja.Notification.Contact_Onclick" android:screenOrientation="portrait"/>
+        <activity android:name="com.rb.cahaya.raja.Notification.Team_Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.rb.cahaya.raja.Notification.About_Activity" android:screenOrientation="portrait"/>
+        <activity android:name="com.rb.cahaya.raja.Notification.Web_Activity" android:screenOrientation="portrait"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>

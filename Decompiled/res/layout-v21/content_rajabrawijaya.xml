@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/template_textmenu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_weight="1.0" android:nestedScrollingEnabled="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="500.0dip">
+            <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/frameraja" android:adjustViewBounds="true" />
+            <com.uncopt.android.widget.text.justify.JustifiedTextView android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="RAJA Brawijaya adalah singkatan dari Rangkaian Acara Jelajah Almamater Universitas Brawijaya, merupakan serangkaian acara yang wajib diikuti oleh mahasiswa baru Universitas Brawijaya sebagai ajang orientasi atau pengenalan kehidupan kampus. RAJA Brawijaya terdiri dari 3 rangkaian yaitu:" />
+            <TextView android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1. PK2MU" />
+            <TextView android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2. PBP" />
+            <TextView android:paddingLeft="15.0dip" android:paddingTop="5.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="3. Open House LKM" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

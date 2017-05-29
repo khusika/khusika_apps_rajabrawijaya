@@ -18,6 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.ContactActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.TeamActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.AboutActivity"
+            android:theme="@style/AppTheme2" />
     </application>
 
 </manifest>

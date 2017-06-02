@@ -16,5 +16,6 @@
         android:elevation="4dp"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
+    <include layout="@layout/content_team" />
 
 </LinearLayout>

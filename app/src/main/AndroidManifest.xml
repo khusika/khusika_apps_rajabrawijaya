@@ -31,6 +31,9 @@
         <activity
             android:name="com.khusika.rajabrawijaya.activities.AboutActivity"
             android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.RajaActivity"
+            android:theme="@style/AppTheme2" />
     </application>
 
 </manifest>

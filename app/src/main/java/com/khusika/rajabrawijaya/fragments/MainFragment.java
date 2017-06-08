@@ -1,6 +1,7 @@
 package com.khusika.rajabrawijaya.fragments;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.Toolbar;
@@ -8,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 import com.daimajia.slider.library.Animations.DescriptionAnimation;
 import com.daimajia.slider.library.SliderLayout;
@@ -16,6 +18,7 @@ import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
 import com.khusika.rajabrawijaya.MainActivity;
 import com.khusika.rajabrawijaya.R;
+import com.khusika.rajabrawijaya.activities.RajaActivity;
 
 import java.util.HashMap;
 
@@ -28,6 +31,7 @@ public class MainFragment extends Fragment implements ViewPagerEx.OnPageChangeLi
     private MainActivity main;
     private Toolbar toolbar;
     private SliderLayout mDemoSlider;
+    private ImageView imageView;
 
     public MainFragment() {
         // Required empty public constructor
@@ -74,6 +78,14 @@ public class MainFragment extends Fragment implements ViewPagerEx.OnPageChangeLi
         mDemoSlider.setCustomAnimation(new DescriptionAnimation());
         mDemoSlider.setDuration(4000);
         mDemoSlider.addOnPageChangeListener(this);
+
+        imageView = (ImageView)view.findViewById(R.id.rajabrawijaya);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent tpi = new Intent(view.getContext(), RajaActivity.class);
+                startActivity(tpi);
+            }
+        });
 
         return view;
     }

@@ -34,6 +34,9 @@
         <activity
             android:name="com.khusika.rajabrawijaya.activities.RajaActivity"
             android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.PBPKActivity"
+            android:theme="@style/AppTheme2" />
     </application>
 
 </manifest>

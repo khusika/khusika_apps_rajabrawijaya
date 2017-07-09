@@ -75,11 +75,11 @@
             android:layout_alignParentBottom="true">
             <LinearLayout
                 android:orientation="vertical"
-                android:id="@+id/PK2MU"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_weight="1.0">
                 <ImageView
+                    android:id="@+id/PK2MU"
                     android:layout_width="wrap_content"
                     android:layout_height="fill_parent"
                     android:src="@drawable/pk2mu"

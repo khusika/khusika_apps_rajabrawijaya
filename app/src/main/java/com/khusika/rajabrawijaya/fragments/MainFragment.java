@@ -18,6 +18,7 @@ import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
 import com.khusika.rajabrawijaya.MainActivity;
 import com.khusika.rajabrawijaya.R;
+import com.khusika.rajabrawijaya.activities.OHLKMActivity;
 import com.khusika.rajabrawijaya.activities.PBPKActivity;
 import com.khusika.rajabrawijaya.activities.PK2MUActivity;
 import com.khusika.rajabrawijaya.activities.RajaActivity;
@@ -99,6 +100,13 @@ public class MainFragment extends Fragment implements ViewPagerEx.OnPageChangeLi
         imageView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 Intent tpi = new Intent(view.getContext(), PK2MUActivity.class);
+                startActivity(tpi);
+            }
+        });
+        imageView = (ImageView)view.findViewById(R.id.OH_LKM);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent tpi = new Intent(view.getContext(), OHLKMActivity.class);
                 startActivity(tpi);
             }
         });

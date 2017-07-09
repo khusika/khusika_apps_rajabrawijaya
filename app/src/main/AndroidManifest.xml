@@ -40,6 +40,9 @@
         <activity
             android:name="com.khusika.rajabrawijaya.activities.PK2MUActivity"
             android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.OHLKMActivity"
+            android:theme="@style/AppTheme2" />
     </application>
 
 </manifest>

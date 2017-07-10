@@ -43,6 +43,15 @@
         <activity
             android:name="com.khusika.rajabrawijaya.activities.OHLKMActivity"
             android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.EMActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.DPMActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name="com.khusika.rajabrawijaya.activities.KMActivity"
+            android:theme="@style/AppTheme2" />
     </application>
 
 </manifest>

@@ -11,4 +11,8 @@
     <string name="pbpk_title">PBPK</string>
     <string name="pk2mu_title">PK2MU</string>
     <string name="ohlkm_title">OH LKM</string>
+    <string name="em_title">EM</string>
+    <string name="dpm_title">DPM</string>
+    <string name="km_title">Kongres Mahasiswa</string>
+    <string name="tab1">DESKRIPSI</string>
 </resources>

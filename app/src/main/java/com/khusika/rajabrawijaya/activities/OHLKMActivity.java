@@ -6,6 +6,7 @@ import android.support.design.widget.AppBarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.khusika.rajabrawijaya.MainActivity;
 import com.khusika.rajabrawijaya.R;
@@ -18,6 +19,7 @@ public class OHLKMActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
     private Intent i;
+    private ImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +29,30 @@ public class OHLKMActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.ohlkm_toolbar);
         setupToolbar();
 
-
         AppBarLayout mAppBarLayout = (AppBarLayout) findViewById(R.id.ohlkm_appbar);
+
+        imageView = (ImageView) findViewById(R.id.em);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent tpi = new Intent(view.getContext(), EMActivity.class);
+                startActivity(tpi);
+            }
+        });
+        imageView = (ImageView) findViewById(R.id.dpm);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent tpi = new Intent(view.getContext(), DPMActivity.class);
+                startActivity(tpi);
+            }
+        });
+        imageView = (ImageView) findViewById(R.id.kongres);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent tpi = new Intent(view.getContext(), KMActivity.class);
+                startActivity(tpi);
+            }
+        });
+
     }
 
     private void setupToolbar(){

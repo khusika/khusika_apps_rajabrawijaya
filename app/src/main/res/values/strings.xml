@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Raja Brawijaya</string>
+    <string name="pk2mu_title">PK2MU</string>
+    <string name="pbpk_title">PBPK</string>
+    <string name="ohlkm_title">OH LKM</string>
 </resources>

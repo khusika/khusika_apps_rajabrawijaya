@@ -3,32 +3,135 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:background="@drawable/colorbackground"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".HomeActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+    <LinearLayout
+        android:layout_above="@+id/navigation"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         android:layout_weight="1"
         >
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/white"
+            >
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:text="1"
+                android:layout_weight="1.0" />
+            <me.relex.circleindicator.CircleIndicator
+                android:id="@+id/indicator"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
                 />
 
-        </LinearLayout>
+        </RelativeLayout>
 
-    </ScrollView>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.2"
+                android:background="@drawable/homepage_tengah"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="17.0dip">
+
+                    <ImageView
+                        android:id="@+id/rajabrawijaya"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.0"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:paddingBottom="10.0dip"
+                        android:paddingTop="20.0dip"
+                        android:src="@drawable/button_raja" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Raja Brawijaya"
+                        android:textSize="15.0dip"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:layout_alignParentBottom="true">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/PK2MU"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/pk2mu"
+                        android:scaleType="centerCrop"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/PBPK"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/pbpk"
+                        android:scaleType="centerCrop"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:id="@+id/OH_LKM"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/oh_lkm"
+                        android:scaleType="centerCrop"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 
     <include
         layout="@layout/element_bottom_navigation"

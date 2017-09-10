@@ -24,6 +24,22 @@
 
         <activity android:name=".ProfileActivity" />
 
+        <activity
+            android:name=".RajaActivity"
+            android:theme="@style/AppTheme2" />
+
+        <activity
+            android:name=".PK2MUActivity"
+            android:theme="@style/AppTheme2" />
+
+        <activity
+            android:name=".PBPKActivity"
+            android:theme="@style/AppTheme2" />
+
+        <activity
+            android:name=".OHLKMActivity"
+            android:theme="@style/AppTheme2" />
+
     </application>
 
 </manifest>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:paddingLeft="15.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingBottom="5.0dip"
+        android:text="PK2MU merupakan sebuah kegiatan awal dalam rangka memudahkan adaptasi mahasiswa baru terhadap dunia perkuliahan. Selain memudahkan proses adaptasi mahasiswa baru kegiatan ini juga sebagai upaya pembentukan rasa kebanggaan mahasiswa akan almamater Universitas Brawijaya."
+        android:textAlignment="gravity"/>
+</android.support.v4.widget.NestedScrollView>

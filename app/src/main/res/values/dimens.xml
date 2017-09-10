@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="about_card_margin">-6dp</dimen>
+    <dimen name="about_card_margin_top_bottom">-8dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+</resources>

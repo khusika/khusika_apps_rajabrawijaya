@@ -40,7 +40,7 @@ public class OHLKMActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                i = new Intent(OHLKMActivity.this, BaseActivity.class);
+                i = new Intent(OHLKMActivity.this, HomeActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }

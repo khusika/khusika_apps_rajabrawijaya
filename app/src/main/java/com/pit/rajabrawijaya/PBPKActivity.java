@@ -24,7 +24,6 @@ public class PBPKActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.pbpk_toolbar);
         setupToolbar();
 
-
         AppBarLayout mAppBarLayout = (AppBarLayout) findViewById(R.id.pbpk_appbar);
     }
 

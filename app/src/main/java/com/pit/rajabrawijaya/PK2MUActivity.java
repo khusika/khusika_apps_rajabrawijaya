@@ -24,7 +24,6 @@ public class PK2MUActivity extends AppCompatActivity {
         toolbar = (Toolbar) findViewById(R.id.pk2mu_toolbar);
         setupToolbar();
 
-
         AppBarLayout mAppBarLayout = (AppBarLayout) findViewById(R.id.pk2mu_appbar);
     }
 

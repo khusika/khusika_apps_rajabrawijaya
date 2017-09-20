@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ImageView;
 
 import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
 
 import me.relex.circleindicator.CircleIndicator;
 
@@ -85,13 +83,13 @@ public class HomeActivity extends BaseActivity {
                 mPager.setCurrentItem(currentPage++, true);
             }
         };
-        Timer swipeTimer = new Timer();
+/*        Timer swipeTimer = new Timer();
         swipeTimer.schedule(new TimerTask() {
             @Override
             public void run() {
                 handler.post(Update);
             }
-        }, 3000, 3000);
+        }, 3000, 3000);*/
     }
 
 }

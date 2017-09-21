@@ -32,21 +32,21 @@ public class HomeActivity extends BaseActivity {
                 startActivity(intent);
             }
         });
-        imageView = (ImageView) findViewById(R.id.PK2MU);
+        imageView = (ImageView) findViewById(R.id.pk2mu_thumbnail);
         imageView.setOnClickListener(new  View.OnClickListener() {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), PK2MUActivity.class);
                 startActivity(intent);
             }
         });
-        imageView = (ImageView) findViewById(R.id.PBPK);
+        imageView = (ImageView) findViewById(R.id.pbpk_thumbnail);
         imageView.setOnClickListener(new  View.OnClickListener() {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), PBPKActivity.class);
                 startActivity(intent);
             }
         });
-        imageView = (ImageView) findViewById(R.id.OH_LKM);
+        imageView = (ImageView) findViewById(R.id.ohlkm_thumbnail);
         imageView.setOnClickListener(new  View.OnClickListener() {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), OHLKMActivity.class);

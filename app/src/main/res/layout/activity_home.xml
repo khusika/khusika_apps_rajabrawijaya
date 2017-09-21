@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"
-    android:background="@drawable/colorbackground"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
@@ -19,7 +19,7 @@
 
         <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
             android:background="@android:color/white"
             >
             <android.support.v4.view.ViewPager
@@ -73,6 +73,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:textColor="#4d4d4d"
                         android:text="Raja Brawijaya"
                         android:textSize="15.0dip"
                         android:textStyle="bold" />
@@ -82,53 +83,142 @@
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.4"
+                android:layout_weight="2"
                 android:layout_alignParentBottom="true">
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1.0">
-                    <ImageView
-                        android:id="@+id/PK2MU"
-                        android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
-                        android:src="@drawable/pk2mu"
-                        android:scaleType="centerCrop"
-                        android:background="?attr/selectableItemBackgroundBorderless"
-                        android:clickable="true"
-                        android:layout_weight="1.0" />
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1.0">
-                    <ImageView
-                        android:id="@+id/PBPK"
-                        android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
-                        android:src="@drawable/pbpk"
-                        android:scaleType="centerCrop"
-                        android:background="?attr/selectableItemBackgroundBorderless"
-                        android:clickable="true"
-                        android:layout_weight="1.0" />
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1.0">
-                    <ImageView
-                        android:id="@+id/OH_LKM"
-                        android:layout_width="wrap_content"
-                        android:layout_height="fill_parent"
-                        android:src="@drawable/oh_lkm"
-                        android:scaleType="centerCrop"
-                        android:background="?attr/selectableItemBackgroundBorderless"
-                        android:clickable="true"
-                        android:layout_weight="1.0" />
-                </LinearLayout>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:elevation="3dp"
+                    card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#16a085"
+                        >
+
+                        <ImageView
+                            android:id="@+id/pk2mu_thumbnail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_alignBottom="@id/pk2mu_thumbnail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/pk2mu_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#99000000"
+                                android:text="PK2MU"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:elevation="3dp"
+                    card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#c0392b"
+                        >
+
+                        <ImageView
+                            android:id="@+id/pbpk_thumbnail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_alignBottom="@id/pbpk_thumbnail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/pbpk_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#99000000"
+                                android:text="PBPK"
+                                android:textAlignment="center"
+                                android:textColor="@android:color/white"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:elevation="3dp"
+                    card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#f0ad4e">
+
+                        <ImageView
+                            android:id="@+id/ohlkm_thumbnail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="?attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_alignBottom="@id/ohlkm_thumbnail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            >
+
+                            <TextView
+                                android:id="@+id/ohlkm_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="#99000000"
+                                android:text="OHLKM"
+                                android:textColor="@android:color/white"
+                                android:textStyle="bold"
+                                android:textAlignment="center"
+                                android:textSize="20sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

@@ -1,19 +1,434 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.NestedScrollView android:layout_gravity="center"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:paddingLeft="10.0dip"
+    android:paddingRight="10.0dip"
     android:paddingBottom="50dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:showIn="@layout/activity_ohlkm"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:card_view="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <android.support.v7.widget.CardView
+                android:id="@+id/em_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clipToPadding="false"
-        android:scrollbars="vertical" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#c0392b">
 
+                    <ImageView
+                        android:id="@+id/em_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_em"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/em_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/em_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="EM"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/dpm_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#c0392b">
+
+                    <ImageView
+                        android:id="@+id/dpm_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_dpm"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/dpm_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/dpm_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="DPM"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <android.support.v7.widget.CardView
+                android:id="@+id/kongres_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffcc00">
+
+                    <ImageView
+                        android:id="@+id/kongres_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_kongres"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/kongres_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/kongres_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kongres Mahasiswa"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/kesejahteraan_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#ffcc00">
+
+                    <ImageView
+                        android:id="@+id/kesejahteraan_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_kesejahteraan"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/kesejahteraan_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/kesejahteraan_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kesejahteraan Mahasiswa"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <android.support.v7.widget.CardView
+                android:id="@+id/khusus_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#d45500">
+
+                    <ImageView
+                        android:id="@+id/khusus_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_khusus"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/khusus_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/khusus_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Minat Khusus"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/olahraga_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#d45500">
+
+                    <ImageView
+                        android:id="@+id/olahraga_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_olahraga"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/olahraga_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/olahraga_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Minat Olahraga"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <android.support.v7.widget.CardView
+                android:id="@+id/penalaran_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#16a085">
+
+                    <ImageView
+                        android:id="@+id/penalaran_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_penalaran"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/penalaran_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/penalaran_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Minat Penalaran"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/kesenian_card_view"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_weight="1.0"
+                android:layout_margin="@dimen/card_margin"
+                android:elevation="3dp"
+                card_view:cardCornerRadius="@dimen/card_album_radius">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#16a085">
+
+                    <ImageView
+                        android:id="@+id/kesenian_thumbnail"
+                        android:layout_centerInParent="true"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:src="@drawable/ic_ohlkm_kesenian"
+                        android:clickable="true"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_alignBottom="@id/kesenian_thumbnail"
+                        android:layout_alignParentBottom="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:background="@color/card_header"
+                        >
+
+                        <TextView
+                            android:id="@+id/kesenian_title"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Minat Kesenian"
+                            android:textColor="@android:color/white"
+                            android:textStyle="bold"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/album_title" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

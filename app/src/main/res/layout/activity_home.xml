@@ -100,15 +100,18 @@
                         >
 
                         <ImageView
+                            android:src="@drawable/ic_pk2mu"
                             android:id="@+id/pk2mu_thumbnail"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
                             android:background="?attr/selectableItemBackgroundBorderless"
                             android:clickable="true"
-                            android:scaleType="fitXY" />
+                            />
 
                         <LinearLayout
                             android:layout_alignBottom="@id/pk2mu_thumbnail"
+                            android:layout_alignParentBottom="true"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
@@ -145,15 +148,18 @@
                         >
 
                         <ImageView
+                            android:src="@drawable/ic_pbpk"
                             android:id="@+id/pbpk_thumbnail"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
                             android:background="?attr/selectableItemBackgroundBorderless"
                             android:clickable="true"
-                            android:scaleType="fitXY" />
+                             />
 
                         <LinearLayout
                             android:layout_alignBottom="@id/pbpk_thumbnail"
+                            android:layout_alignParentBottom="true"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"
@@ -189,15 +195,18 @@
                         android:background="#f0ad4e">
 
                         <ImageView
+                            android:src="@drawable/ic_ohlkm"
                             android:id="@+id/ohlkm_thumbnail"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_centerInParent="true"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
                             android:background="?attr/selectableItemBackgroundBorderless"
                             android:clickable="true"
-                            android:scaleType="fitXY" />
+                            />
 
                         <LinearLayout
                             android:layout_alignBottom="@id/ohlkm_thumbnail"
+                            android:layout_alignParentBottom="true"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_vertical"

@@ -2,6 +2,7 @@ package com.pit.rajabrawijaya;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -22,6 +23,9 @@ public class RajaActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.raja_toolbar);
         setupToolbar();
+
+
+        AppBarLayout mAppBarLayout = (AppBarLayout) findViewById(R.id.raja_appbar);
     }
 
     private void setupToolbar(){
@@ -34,7 +38,7 @@ public class RajaActivity extends AppCompatActivity {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                i = new Intent(RajaActivity.this, BaseActivity.class);
+                i = new Intent(RajaActivity.this, HomeActivity.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(i);
             }

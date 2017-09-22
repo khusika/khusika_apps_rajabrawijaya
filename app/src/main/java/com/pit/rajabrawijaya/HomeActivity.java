@@ -15,7 +15,7 @@ public class HomeActivity extends BaseActivity {
 
     private static ViewPager mPager;
     private static int currentPage = 0;
-    private static final Integer[] XMEN= {R.drawable.colorbackground,R.color.colorPrimary, R.color.card_header };
+    private static final Integer[] XMEN= {R.drawable.frame_raja,R.drawable.frame_pk2mu, R.drawable.frame_pbpk, R.drawable.frame_ohlkm };
     private ArrayList<Integer> XMENArray = new ArrayList<Integer>();
     private ImageView imageView;
 
@@ -28,7 +28,7 @@ public class HomeActivity extends BaseActivity {
         imageView = (ImageView) findViewById(R.id.rajabrawijaya);
         imageView.setOnClickListener(new  View.OnClickListener() {
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), PK2MUActivity.class);
+                Intent intent = new Intent(view.getContext(), RajaActivity.class);
                 startActivity(intent);
             }
         });

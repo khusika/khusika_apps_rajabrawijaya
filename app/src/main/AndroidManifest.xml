@@ -42,6 +42,16 @@
             android:name=".OHLKMActivity"
             android:theme="@style/AppTheme2" />
 
+        <activity
+            android:name=".ohlkm.EMActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ohlkm.DPMActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ohlkm.KongresActivity"
+            android:theme="@style/AppTheme2" />
+
     </application>
 
 </manifest>

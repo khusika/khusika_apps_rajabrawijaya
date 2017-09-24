@@ -10,7 +10,12 @@ import android.widget.ImageView;
 
 import com.pit.rajabrawijaya.ohlkm.DPMActivity;
 import com.pit.rajabrawijaya.ohlkm.EMActivity;
+import com.pit.rajabrawijaya.ohlkm.KesejahteraanActivity;
+import com.pit.rajabrawijaya.ohlkm.KesenianActivity;
+import com.pit.rajabrawijaya.ohlkm.KhususActivity;
 import com.pit.rajabrawijaya.ohlkm.KongresActivity;
+import com.pit.rajabrawijaya.ohlkm.OlahragaActivity;
+import com.pit.rajabrawijaya.ohlkm.PenalaranActivity;
 
 /**
  * Created by khusika on 09/07/17.
@@ -49,6 +54,41 @@ public class OHLKMActivity extends AppCompatActivity {
         imageView.setOnClickListener(new  View.OnClickListener() {
             public void onClick(View view) {
                 Intent intent = new Intent(view.getContext(), KongresActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageView = (ImageView) findViewById(R.id.kesejahteraan_thumbnail);
+        imageView.setOnClickListener(new  View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), KesejahteraanActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageView = (ImageView) findViewById(R.id.olahraga_thumbnail);
+        imageView.setOnClickListener(new  View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), OlahragaActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageView = (ImageView) findViewById(R.id.khusus_thumbnail);
+        imageView.setOnClickListener(new  View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), KhususActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageView = (ImageView) findViewById(R.id.penalaran_thumbnail);
+        imageView.setOnClickListener(new  View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), PenalaranActivity.class);
+                startActivity(intent);
+            }
+        });
+        imageView = (ImageView) findViewById(R.id.kesenian_thumbnail);
+        imageView.setOnClickListener(new  View.OnClickListener() {
+            public void onClick(View view) {
+                Intent intent = new Intent(view.getContext(), KesenianActivity.class);
                 startActivity(intent);
             }
         });

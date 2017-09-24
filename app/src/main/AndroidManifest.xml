@@ -51,6 +51,21 @@
         <activity
             android:name=".ohlkm.KongresActivity"
             android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ohlkm.KesejahteraanActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ohlkm.KhususActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ohlkm.OlahragaActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ohlkm.PenalaranActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".ohlkm.KesenianActivity"
+            android:theme="@style/AppTheme2" />
 
     </application>
 

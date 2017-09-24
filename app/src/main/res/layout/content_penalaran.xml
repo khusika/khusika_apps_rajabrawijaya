@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/formasi_image"
+                android:background="@drawable/minat_penalaran_formasi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/formasi_image"
+                android:id="@+id/formasi_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="FORMASI"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/formasi_first"
+                android:id="@+id/formasi_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forum Mahasiswa Studi Bahasa Inggris"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fordimapelar_image"
+                android:background="@drawable/minat_penalaran_fordimapelar"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/fordimapelar_image"
+                android:id="@+id/fordimapelar_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="FORDI MAPELAR"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/fordimapelar_first"
+                android:id="@+id/fordimapelar_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forum Studi Mahasiswa Pengembagan Penalaran"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uapkm_image"
+                android:background="@drawable/minat_penalaran_uapkm"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uapkm_image"
+                android:id="@+id/uapkm_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UAPKM"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uapkm_first"
+                android:id="@+id/uapkm_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Pers Kampus Mahasiswa"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iaas_image"
+                android:background="@drawable/minat_penalaran_iaas"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/iaas_image"
+                android:id="@+id/iaas_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="IAAS"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/iaas_first"
+                android:id="@+id/iaas_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="International Association of Students in Agricultural Related Science"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aisec_image"
+                android:background="@drawable/minat_penalaran_aisec"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/aisec_image"
+                android:id="@+id/aisec_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="AISEC"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/aisec_first"
+                android:id="@+id/aisec_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Associaton Internationale des Etudiants en Sciences Economiques et Commerciales"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/rkim_image"
+                android:background="@drawable/minat_penalaran_rkim"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/rkim_image"
+                android:id="@+id/rkim_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="RKIM"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/rkim_first"
+                android:id="@+id/rkim_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riset dan Karya Ilmiah Mahasiswa"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ukmmw_image"
+                android:background="@drawable/minat_penalaran_mw"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/ukmmw_image"
+                android:id="@+id/ukmmw_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UKM MW"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/ukmmw_first"
+                android:id="@+id/ukmmw_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UKM Mahasiswa Wirausaha"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uab_image"
+                android:background="@drawable/minat_kesenian_uab"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uab_image"
+                android:id="@+id/uab_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UAB"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uab_first"
+                android:id="@+id/uab_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Band"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/psm_image"
+                android:background="@drawable/minat_kesenian_psm"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/psm_image"
+                android:id="@+id/psm_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="PSM"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/psm_first"
+                android:id="@+id/psm_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paduan Suara Mahasiswa"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/unitantri_image"
+                android:background="@drawable/minat_kesenian_unitantri"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/unitantri_image"
+                android:id="@+id/unitantri_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UNITANTRI"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/unitantri_first"
+                android:id="@+id/unitantri_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Karawitan dan Tari"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uatm_image"
+                android:background="@drawable/minat_kesenian_teaterkutub"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uatm_image"
+                android:id="@+id/uatm_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UATM"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uatm_first"
+                android:id="@+id/uatm_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Teater Mahasiswa"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/marchingband_image"
+                android:background="@drawable/minat_kesenian_marchingband"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/marchingband_image"
+                android:id="@+id/marchingband_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="MARCHING BAND"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/marchingband_first"
+                android:id="@+id/marchingband_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marching Band Ekalavya Suara Brawijaya"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/nolderajat_image"
+                android:background="@drawable/minat_kesenian_nolderajat"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/nolderajat_image"
+                android:id="@+id/nolderajat_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="NOL DERAJAT FILM"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/nolderajat_first"
+                android:id="@+id/nolderajat_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nol Derajat Film"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/senireligi_image"
+                android:background="@drawable/minat_kesenian_senireligi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/senireligi_image"
+                android:id="@+id/senireligi_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UKM Seni Religi"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/senireligi_first"
+                android:id="@+id/senireligi_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seni Religi"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

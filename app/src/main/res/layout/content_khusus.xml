@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/menwa_image"
+                android:background="@drawable/minat_khusus_menwa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/menwa_image"
+                android:id="@+id/menwa_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="MENWA"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/menwa_first"
+                android:id="@+id/menwa_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resimen Mahasiswa"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ksr_image"
+                android:background="@drawable/minat_khusus_ksr"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/ksr_image"
+                android:id="@+id/ksr_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="KSR"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/ksr_first"
+                android:id="@+id/ksr_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Korps Sukarela"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/impala_image"
+                android:background="@drawable/minat_khusus_impala"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/impala_image"
+                android:id="@+id/impala_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="IMPALA"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/impala_first"
+                android:id="@+id/impala_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ikatan Mahasiswa Pencinta Alam Universitas Brawijaya"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pramuka_image"
+                android:background="@drawable/minat_khusus_pramuka"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/pramuka_image"
+                android:id="@+id/pramuka_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="PRAMUKA"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/pramuka_first"
+                android:id="@+id/pramuka_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Praja Muda Karana"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/tegazs_image"
+                android:background="@drawable/minat_khusus_tegazs"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/tegazs_image"
+                android:id="@+id/tegazs_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="TEGAZS"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/tegazs_first"
+                android:id="@+id/tegazs_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tim Penanggulangan Penyalahgunaan NAPZA dan HIV/AIDS"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uaki_image"
+                android:background="@drawable/minat_kesejahteraanmahasiswa_uaki"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uaki_image"
+                android:id="@+id/uaki_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UAKI"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uaki_first"
+                android:id="@+id/uaki_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Kerohanian Islam"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uakk_image"
+                android:background="@drawable/minat_kesejahteraanmahasiswa_uakk"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uakk_image"
+                android:id="@+id/uakk_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UAKK"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uakk_first"
+                android:id="@+id/uakk_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Kerohanian Kristen"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uakkat_image"
+                android:background="@drawable/minat_kesejahteraanmahasiswa_uakkat"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uakkat_image"
+                android:id="@+id/uakkat_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UAKI"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uakkat_first"
+                android:id="@+id/uakkat_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Kerohanian Katolik"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uakb_image"
+                android:background="@drawable/minat_kesejahteraanmahasiswa_uakb"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uakb_image"
+                android:id="@+id/uakb_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UAKB"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uakb_first"
+                android:id="@+id/uakb_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Kerohanian Buddhis"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/unikahida_image"
+                android:background="@drawable/minat_kesejahteraanmahasiswa_unikahidha"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/unikahida_image"
+                android:id="@+id/unikahida_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UNIKAHIDHA"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/unikahida_first"
+                android:id="@+id/unikahida_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Kerohanian Islam"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

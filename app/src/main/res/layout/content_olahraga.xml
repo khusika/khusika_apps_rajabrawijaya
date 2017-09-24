@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uabt_image"
+                android:background="@drawable/minat_keolahragaan_uabt"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uabt_image"
+                android:id="@+id/uabt_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UABT"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uabt_first"
+                android:id="@+id/uabt_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Bulu Tangkis"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uabb_image"
+                android:background="@drawable/minat_keolahragaan_uabb"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uabb_image"
+                android:id="@+id/uabb_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UABB"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uabb_first"
+                android:id="@+id/uabb_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Bola Basket"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uabv_image"
+                android:background="@drawable/minat_keolahragaan_uabv"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uabv_image"
+                android:id="@+id/uabv_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UABV"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uabv_first"
+                android:id="@+id/uabv_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Bola Voli"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uasb_image"
+                android:background="@drawable/minat_keolahragaan_uasb"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uasb_image"
+                android:id="@+id/uasb_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UASB"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uasb_first"
+                android:id="@+id/uasb_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Sepak Bola"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uatl_image"
+                android:background="@drawable/minat_keolahragaan_uatl"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uatl_image"
+                android:id="@+id/uatl_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UATL"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uatl_first"
+                android:id="@+id/uatl_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Tenis Lapangan"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ptm_image"
+                android:background="@drawable/minat_keolahragaan_ptm"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/ptm_image"
+                android:id="@+id/ptm_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="PTM"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/ptm_first"
+                android:id="@+id/ptm_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UKM Tenis Meha"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bsc_image"
+                android:background="@drawable/minat_keolahragaan_bsc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/bsc_image"
+                android:id="@+id/bsc_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="BSC"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/bsc_first"
+                android:id="@+id/bsc_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basic Shooting Club"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bcc_image"
+                android:background="@drawable/minat_keolahragaan_bcc"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/bcc_image"
+                android:id="@+id/bcc_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="BCC"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/bcc_first"
+                android:id="@+id/bcc_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brawijaya Chess Club"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ti_image"
+                android:background="@drawable/minat_keolahragaan_taekwondo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/ti_image"
+                android:id="@+id/ti_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UABT"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/ti_first"
+                android:id="@+id/ti_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taekwondo Indonesia Universitas Brawijaya"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/inkai_image"
+                android:background="@drawable/minat_keolahragaan_inkai"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/inkai_image"
+                android:id="@+id/inkai_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UNKAI"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/inkai_first"
+                android:id="@+id/inkai_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Karate-Do Indonesia"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/tapaksuci_image"
+                android:background="@drawable/minat_keolahragaan_tapaksuci"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/tapaksuci_image"
+                android:id="@+id/tapaksuci_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UKM Tapak Suci"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/tapaksuci_first"
+                android:id="@+id/tapaksuci_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UKM Tapak Suci"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/perisaidiri_image"
+                android:background="@drawable/minat_keolahragaan_perisaidiri"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/perisaidiri_image"
+                android:id="@+id/perisaidiri_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UKM Perisai Diri"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/perisaidiri_first"
+                android:id="@+id/perisaidiri_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perisai Diri"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/merpatiputih_image"
+                android:background="@drawable/minat_keolahragaan_merpatiputih"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/merpatiputih_image"
+                android:id="@+id/merpatiputih_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="PPS Betako Merpati Putih"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/merpatiputih_first"
+                android:id="@+id/merpatiputih_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pencak Silat"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/psht_image"
+                android:background="@drawable/minat_keolahragaan_psht"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/psht_image"
+                android:id="@+id/psht_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="PSHT"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/psht_first"
+                android:id="@+id/psht_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Persaudaraan Setia Hati Terate"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/kempo_image"
+                android:background="@drawable/minat_keolahragaan_kempo"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/kempo_image"
+                android:id="@+id/kempo_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UKM SHORINJI KEMPO"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/kempo_first"
+                android:id="@+id/kempo_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shorinji Kempo"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bbc_image"
+                android:background="@drawable/minat_keolahragaan_bridge_icon"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/bbc_image"
+                android:id="@+id/bbc_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UKM Bridge"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/bbc_first"
+                android:id="@+id/bbc_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brawijaya Bridge Community"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/baseball_image"
+                android:background="@drawable/minat_keolahragaan_baseball"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/baseball_image"
+                android:id="@+id/baseball_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="BSB"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/baseball_first"
+                android:id="@+id/baseball_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baseball Softball Brawijaya"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/uabt_image"
+                android:background="@drawable/minat_keolahragaan_uabt"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/uabt_image"
+                android:id="@+id/uabt_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UABT"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/uabt_first"
+                android:id="@+id/uabt_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Bulu Tangkis"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bumerang_image"
+                android:background="@drawable/minat_keolahragaan_bumerang"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/bumerang_image"
+                android:id="@+id/bumerang_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Bumerang Brawijaya"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/bumerang_first"
+                android:id="@+id/bumerang_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bumerang Brawijaya"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardElevation="@dimen/card_elevation"
+        card_view:cardCornerRadius="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/panahan_image"
+                android:background="@drawable/minat_keolahragaan_panahan"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+            <TextView
+                android:layout_below="@+id/panahan_image"
+                android:id="@+id/panahan_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="UAP"
+                android:textSize="14sp"
+                android:paddingTop="8dp"
+                android:paddingLeft="16dp"/>
+
+            <TextView
+                android:layout_below="@+id/panahan_first"
+                android:id="@+id/panahan_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit Aktivitas Panahan"
+                android:textSize="12sp"
+                android:paddingLeft="16dp"
+                android:paddingBottom="8dp"/>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

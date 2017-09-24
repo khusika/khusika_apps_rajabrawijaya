@@ -6,5 +6,10 @@
     <string name="em_title">EM</string>
     <string name="dpm_title">DPM</string>
     <string name="kongres_title">Kongres Mahasiswa</string>
+    <string name="kesejahteraan_title">Kesejahteraan Mahasiswa</string>
+    <string name="khusus_title">Minat Khusus</string>
+    <string name="olahraga_title">Minat Olahraga</string>
+    <string name="penalaran_title">Minat Penalaran</string>
+    <string name="kesenian_title">Minat Kesenian</string>
     <string name="tab1">DESKRIPSI</string>
 </resources>
